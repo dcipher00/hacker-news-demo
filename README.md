@@ -12,6 +12,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+
+## To run in a docker container
+
+### `docker pull iamvicky007/docker-demo2`
+### `docker run -itd -p 80:80 --name hacker-news iamvicky007/docker-demo2`
+
+Runs the app in the production mode.<br />
+Open [http://localhost:80](http://localhost:80) to view it in the browser.
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
