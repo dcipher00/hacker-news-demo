@@ -1,0 +1,6 @@
+node_modules
+.firebase
+.git
+firebaserc
+.firebase.json
+Dockerfile

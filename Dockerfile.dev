@@ -1,0 +1,7 @@
+FROM node
+RUN npm config set registry http://registry.npmjs.org/
+WORKDIR /app
+COPY package.json .
+RUN npm install
+COPY . .
+CMD ["npm","start"]
